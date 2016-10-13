@@ -1,0 +1,22 @@
+{
+  "name": "silverstripe-modular-project/silverstripe-placeable-definition-list",
+  "description": "Silverstripe placeable sub module to provide a definition list useful for FAQ's",
+  "type": "silverstripe-module",
+  "keywords": ["silverstripe", "modular", "regions", "blocks"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Gorrie Coe",
+      "email": "gorriecoe@gmail.com"
+    }
+  ],
+  "require":
+  {
+    "silverstripe/framework": "^3.2",
+    "silverstripe/cms": "^3.2",
+    "silverstripe-modular-project/silverstripe-placeable": "dev-master"
+  },
+  "extra": {
+    "installer-name": "placeable-definition-list"
+  }
+}
